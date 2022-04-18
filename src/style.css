@@ -114,6 +114,24 @@
 }
 
 
+@media only screen and (max-width: 700px) {
+    .banner{
+        height: 500px;
+
+    }
+    
+    .banner h1{
+        font-size: 2rem;
+
+    }
+    
+    .banner p{
+        font-size: 14px;
+    } 
+}
+
+
+
 
 
 
