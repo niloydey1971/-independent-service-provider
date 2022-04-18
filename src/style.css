@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+
+/* all time use */
+.btn {
+    background-color: rgb(45, 131, 244);
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn:hover {
+    transform: scale(0.98);
 }
 
 .container {
@@ -20,7 +44,7 @@
 
 /* navbar */
 .navbar{
-    background-color: rgb(255, 68, 171);
+    background-color: rgb(45, 131, 244);
     height: 80px;
     color: #fff;
    
@@ -53,3 +77,44 @@
 .navbar a:hover{
     border: 2px solid #fff;
 }
+
+
+/* banner */
+.banner{
+    height: 400px;
+    background-color: rgb(45, 131, 244);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.banner h1{
+    font-size: 3rem;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.banner .btn{
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.banner .btn-outline {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+
+
+
