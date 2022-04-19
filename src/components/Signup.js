@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import auth from '../firebase.init';
 import race2 from '../../src/race2.png'
-import { useCreateUserWithEmailAndPassword, useSendEmailVerification } from 'react-firebase-hooks/auth'
+import { useCreateUserWithEmailAndPassword, useSendEmailVerification, useSignInWithGoogle } from 'react-firebase-hooks/auth'
 import { Link } from 'react-router-dom';
+import google from '../google.png'
 
 const Signup = () => {
 
@@ -14,14 +15,11 @@ const Signup = () => {
 
 
     // destructuring......
-    const [
-        createUserWithEmailAndPassword,
-        user,
-        loading,
-        error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
 
     const [sendEmailVerification] = useSendEmailVerification(auth);
+    // google signIn
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
 
     // chandlesign up btn......
     const handleSignUp = (e) => {
@@ -32,6 +30,8 @@ const Signup = () => {
         })
 
     }
+
+
 
     return (
         <div className='blogshow signup'>
@@ -51,6 +51,12 @@ const Signup = () => {
 
                         <input type="submit" value="Sign Up" className="btn"></input>
                     </form>
+                    <h2 className='text-center'>Or,</h2>
+                    <div className='flex googleSignIn' onClick={() => signInWithGoogle()} >
+                        <img src={google} alt='google'></img>
+                        <p>Sign In with Google</p>
+                    </div>
+                    <p className='switch'>Already Signed In? Go to the <Link className='switch-account' to='/login'>Login Page</Link></p>
                 </div>
 
 
