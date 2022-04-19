@@ -69,6 +69,15 @@
     
 }
 
+.grid-two-50{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .card {
     background-color: #fff;
     color: #333;
@@ -205,6 +214,42 @@
     margin-bottom: 15px;
 }
 
+/* signup */
+.blogshow{
+    
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+
+/* input-box */
+
+.form h2, input[type='submit'] {
+    margin: 10px auto;
+    width: 70%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form input[type='submit']{
+    margin-top: 20px;
+    padding: 16px;
+    background-color: rgb(37, 146, 242);
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 10px auto;
+    width: 70%;
+
+}
 
 /* footer */
 .footer {
