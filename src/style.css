@@ -58,6 +58,15 @@
     
 }
 
+.grid-two-col {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .card {
     background-color: #fff;
     color: #333;
@@ -163,6 +172,36 @@
     margin-top: 18px;
 }
 
+
+
+/* blogshow */
+.blogshow{
+    margin: 100px 0;
+    background-color: aliceblue;
+    padding: 100px;
+    
+}
+
+.blogshow img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blogshow-text{
+    padding-left: 40px;
+}
+
+.blogshow-text h1{
+    font-family: 'lato';
+    font-size: 3rem;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+
+.blogshow-text p{
+   
+    margin-bottom: 15px;
+}
 
 
 @media only screen and (max-width: 700px) {
