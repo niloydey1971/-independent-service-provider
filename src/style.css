@@ -233,6 +233,8 @@ h2 {
     margin-bottom: 15px;
 }
 
+
+
 /* signup */
 .blogshow {
 
@@ -317,6 +319,10 @@ input[type='submit'] {
     margin: 100px;
     margin-bottom: 500px;
 
+}
+
+.about{
+    margin-bottom: 200px;
 }
 
 /* footer */
