@@ -324,6 +324,17 @@ input[type='submit'] {
 
 .about {
     margin-bottom: 200px;
+    
+}
+
+.rest{
+    margin: 100px;
+    margin-bottom: 700px;
+    
+}
+
+.rest h1{
+    font-size: 5rem;
 }
 
 /* footer */
@@ -351,6 +362,13 @@ input[type='submit'] {
 
 
 @media only screen and (max-width: 700px) {
+
+    .container {
+        
+        margin: 0 auto;
+        padding: 0 10px;
+    
+    }
 
     .sm-flex{
         display: flex;
@@ -401,7 +419,7 @@ input[type='submit'] {
         display: inline;
         background-color: black;
         height: 200px;
-        margin-top: 50px;
+        margin-top: 100px;
         width: 50%;
         margin-left: 0;
         padding: 25px;
