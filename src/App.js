@@ -9,6 +9,7 @@ import Signup from './components/Signup';
 import Rest from './components/Rest';
 import Navbar from './components/Navbar';
 import Checkout from './components/Checkout';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         <Route  path='/signup' element={<Signup/>}></Route>
         <Route  path='*' element={<Rest/>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
+    
   );
 }
 
