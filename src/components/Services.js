@@ -8,7 +8,7 @@ const Services = () => {
         <div className='container'>
             <div className='my-5 service'>
                 <h1>My Photography Packages</h1>
-                <div className='grid grid-three-col md-flex'>
+                <div className='grid grid-three-col sm-flex'>
                     {
                         service.map(s => <MyService
                             key={s.id} services={s}></MyService>)

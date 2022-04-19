@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='container md-flex'>
+        <div className='container sm-flex'>
             <div className='sporphyBlog'>
 
                 <h2>1. Difference between authorization and authentication</h2>

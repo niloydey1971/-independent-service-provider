@@ -5,7 +5,7 @@ import race2 from '../../src/race2.png'
 const BlogShow = () => {
     return (
         <div className='blogshow '>
-            <div className='container grid-two-col'>
+            <div className='container grid-two-col sm-flex'>
                 <img src={race2} alt='photography'></img>
                 <div className='blogshow-text'>
                     <h1>My Best Experiences</h1>

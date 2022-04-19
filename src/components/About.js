@@ -5,7 +5,7 @@ import niloy from '../niloy.png'
 const About = () => {
     return (
         <div className='blogshow about'>
-            <div className='container grid-two-col'>
+            <div className='container grid-two-col sm-flex'>
                 <img src={niloy} alt='Me Niloy'></img>
                 <div className='blogshow-text'>
                     <h1>Niloy Dey - Sports Photographer.</h1>

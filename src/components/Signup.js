@@ -35,9 +35,9 @@ const Signup = () => {
 
     return (
         <div className='blogshow signup'>
-            <div className='container grid-two-50'>
+            <div className='container grid-two-50 sm-flex'>
                 <img src={race2} alt='photography'></img>
-                <div className=' form card'>
+                <div className=' form card  sm-card'>
                     <h2>Sign Up for Access</h2>
                     <form onSubmit={handleSignUp}>
 

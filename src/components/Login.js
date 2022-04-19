@@ -31,9 +31,9 @@ const Login = () => {
     
     return (
         <div className='blogshow signup'>
-            <div className='container grid-two-50'>
+            <div className='container grid-two-50 sm-flex'>
                
-                <div className=' form card'>
+                <div className=' form card sm-card'>
                     <h2>Log In for Access</h2>
                     <form onSubmit={handleLoginForm}>
 

@@ -9,9 +9,10 @@
 
 /* all time use */
 
-.text-center{
+.text-center {
     text-align: center;
 }
+
 .btn {
     background-color: rgb(45, 131, 244);
     color: #fff;
@@ -40,15 +41,15 @@
     text-decoration: none;
 }
 
-.signOutBtn{
-    
-    color:#fff;
+.signOutBtn {
+
+    color: #fff;
     cursor: pointer;
     padding: 0 16px;
     font-weight: 600;
-   
-    
-    
+
+
+
 
 }
 
@@ -301,27 +302,27 @@ input[type='submit'] {
     font-size: 1rem;
 }
 
-.switch{
+.switch {
     text-align: center;
     margin: 20px 0;
     font-weight: 600;
-    
+
 }
 
 
-.switch-account{
+.switch-account {
     color: rgb(52, 110, 237);
     text-decoration: none;
-    
+
 }
 
-.sporphyBlog{
+.sporphyBlog {
     margin: 100px;
     margin-bottom: 500px;
 
 }
 
-.about{
+.about {
     margin-bottom: 200px;
 }
 
@@ -344,10 +345,24 @@ input[type='submit'] {
 }
 
 
+.d-none {
+    display: none;
+}
+
 
 @media only screen and (max-width: 700px) {
+
+    .sm-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sm-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .banner {
-        height: 500px;
+        height: 450px;
 
     }
 
@@ -359,4 +374,61 @@ input[type='submit'] {
     .banner p {
         font-size: 14px;
     }
+
+    .hamburger-menu {
+        display: block;
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        color: #fff;
+
+
+    }
+
+    .sm-card, .input-box, .googleSignIn{
+        width: 100%;
+    }
+
+    .menu {
+        background-color: rgb(45, 131, 244);
+
+
+
+    }
+
+    ul.top-50 {
+
+        display: inline;
+        background-color: black;
+        height: 200px;
+        margin-top: 50px;
+        width: 50%;
+        margin-left: 0;
+        padding: 25px;
+
+
+    }
+
+    ul li {
+        margin: 10px;
+       
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+
+
+
+
+
+    .topMinus-120 {
+        margin-top: -390px;
+    }
+
+
+
 }
