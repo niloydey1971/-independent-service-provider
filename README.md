@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# Sporphy - Sports Photography
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Site: https://sporphy10.web.app/
+
+## Procedure....
+* Use React router to route the dfferent section.
+* Use firebase  for authentication purpose.
+* Use Protected Route to save the unauthorized access.
+* Use raw css to design the layout.
+* Use some external hooks to simplify the project.
+* Use firebase hosting for deploy the project.
 
 In the project directory, you can run:
 
