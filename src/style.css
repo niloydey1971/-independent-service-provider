@@ -28,6 +28,13 @@
     transform: scale(0.98);
 }
 
+.btn-text{
+    color: #fff;
+    font-weight: 600;
+    size: 1rem;
+    text-decoration: none;
+}
+
 .container {
     max-width: 1098px;
     margin: 0 auto;

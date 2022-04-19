@@ -11,7 +11,7 @@ const MyService = (props) => {
             <h3>Service Fee: ${price}</h3><br/>
             <p>{description}</p><br />
             <button className='btn'>
-                <Link className='checkout-btn' to='/checkout'>Book Me Now</Link>
+                <Link className='btn-text' to='/checkout'>Book Me Now</Link>
             </button>
 
         </div>
