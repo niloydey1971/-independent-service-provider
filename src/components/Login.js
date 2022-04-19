@@ -28,6 +28,7 @@ const Login = () => {
 
     // google signIn
     const [signInWithGoogle] = useSignInWithGoogle(auth);
+    
     return (
         <div className='blogshow signup'>
             <div className='container grid-two-50'>

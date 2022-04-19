@@ -10,6 +10,7 @@ import Rest from './components/Rest';
 import Navbar from './components/Navbar';
 import Checkout from './components/Checkout';
 import Footer from './components/Footer';
+import RequireAuth from './components/RequireAuth/RequireAuth';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
         <Route path='/about' element={<About/>}></Route>
-        <Route path='/checkout' element={<Checkout/>}></Route>
+        <Route  path='/checkout' element={<RequireAuth><Checkout></Checkout></RequireAuth>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route  path='/signup' element={<Signup/>}></Route>
         <Route  path='*' element={<Rest/>}></Route>
