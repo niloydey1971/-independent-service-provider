@@ -10,8 +10,8 @@ const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setpassword] = useState('')
 
-       // destructuring the hook......
-       const [
+    // destructuring the hook......
+    const [
         signInWithEmailAndPassword,
         user,
         loading,
@@ -23,16 +23,21 @@ const Login = () => {
         e.preventDefault()
         signInWithEmailAndPassword(email, password)
 
+
+
+
     }
+
+
 
 
     // google signIn
     const [signInWithGoogle] = useSignInWithGoogle(auth);
-    
+
     return (
         <div className='blogshow signup'>
             <div className='container grid-two-50 sm-flex'>
-               
+
                 <div className=' form card sm-card'>
                     <h2>Log In for Access</h2>
                     <form onSubmit={handleLoginForm}>
@@ -43,7 +48,9 @@ const Login = () => {
                         <input className='input-box' onBlur={(e) => setpassword(e.target.value)} type="password" name="password" placeholder="password" required></input>
 
                         <input type="submit" value="Log In" className="btn"></input>
+
                     </form>
+                  
                     <h2 className='text-center'>Or,</h2>
                     <div className='flex googleSignIn' onClick={() => signInWithGoogle()} >
                         <img src={google} alt='google'></img>
