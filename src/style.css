@@ -42,6 +42,29 @@
     height: 100%;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.card img {
+    max-width: 100%;
+}
+
 /* navbar */
 .navbar{
     background-color: rgb(45, 131, 244);
@@ -112,6 +135,27 @@
     border: 1px solid #fff;
     color: #fff;
 }
+
+
+/* service */
+.service{
+    margin: 100px 0;
+}
+
+.service h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-family: 'lato', sans-serif;
+}
+
+.service h1, h2{
+    font-family: 'lato', sans-serif;
+}
+.service h2{
+    margin-top: 18px;
+}
+
 
 
 @media only screen and (max-width: 700px) {

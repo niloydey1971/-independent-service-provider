@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Sports Photography",
+        "price": 1450,
+        "description":"Call JKP Sports today and get started on your upcoming races! As the world’s leading race photography platform, Pic2Go’s innovative platform automates technology.",
+        "image": "race3.png"
+
+    },
+
+    {
+        "id": 2,
+        "name": "Travel Photography",
+        "price": 1750,
+        "description":"Pic2Go’s race photography technology is used by major events and sponsors in 40 countries. Pic2Go is also the developer of RunPage, the emerging Finishers Experience Platform.",
+        "image": "race2.png"
+
+    },
+
+    {
+        "id": 3,
+        "name": "Wedding Photography",
+        "price": 3150,
+        "description":"Traditional photography captures events as they are supposed to. The beauty of candid wedding photography lies in the natural reactions of the people.",
+        "image": "race.png"
+
+    }
+]
