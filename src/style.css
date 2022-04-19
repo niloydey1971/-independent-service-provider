@@ -28,6 +28,7 @@
     border: 1px solid #fff;
 }
 
+
 .btn:hover {
     transform: scale(0.98);
 }
@@ -37,6 +38,18 @@
     font-weight: 600;
     size: 1rem;
     text-decoration: none;
+}
+
+.signOutBtn{
+    
+    color:#fff;
+    cursor: pointer;
+    padding: 0 16px;
+    font-weight: 600;
+   
+    
+    
+
 }
 
 .container {
@@ -298,6 +311,12 @@ input[type='submit'] {
     color: rgb(52, 110, 237);
     text-decoration: none;
     
+}
+
+.sporphyBlog{
+    margin: 100px;
+    margin-bottom: 500px;
+
 }
 
 /* footer */
